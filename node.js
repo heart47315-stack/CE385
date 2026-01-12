@@ -35,7 +35,9 @@ if (averageScore >= 80) {
 } else {
   console.log("ค่าเฉลี่ยน้อยกว่า 80");
 }
-username, password = "admin", "1234"
+
+username = "admin";
+password = "1234";
 
 // ตรวจสอบข้อมูลการเข้าสู่ระบบ   
 if (username === "admin" && password === "1234") {
